@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Admin GFA</title>
+</head>
+
+<body>
+	<h1>Removing All Applicants</h1>
+    <form action="/adminRemove" method="post" onsubmit="return main()">
+        <input type="submit" value="Remove All Applicants"><br>
+    </form>
+	<hr>
+    <a href="/">HOME</a>
+
+</body>
+
+</html>
+<script>
+    function main(){
+        confirm("Are you sure you want to remove all applicants?");
+    } 
+</script>
